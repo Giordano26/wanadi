@@ -16,9 +16,11 @@ const Header = () => {
 
                 <Menu openMenu={openMenu}>
                     <ul className="nav__list">
-                        <li className="nav__item"><a href="#home" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Página Incial</a></li>
-                        <li className="nav__item"><a href="#about" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Quem Somos</a></li>
+                        <li className="nav__item"><a href="#home" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >A Wanadi</a></li>
+                        <li className="nav__item"><a href="#about" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >O que fazemos</a></li>
+                        <li className="nav__item"><a href="#projects" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Portifólio</a></li>
                         <li className="nav__item"><a href="#contact" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Contato</a></li>
+                        <li className="nav__item"><a href="#blog" className="nav__link" onClick={() => setOpenMenu(!openMenu)} >Blog</a></li>
                     </ul>
                 </Menu>
 
